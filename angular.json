@@ -1,0 +1,29 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "version": 1,
+    "projects": {
+        "angular-manual-setup": {
+            "root": "",
+            "projectType": "application",
+            "architect": {
+                "build" : {
+                    "builder":"@angular-devkit/build-angular:browser",
+                    "configurations": {},
+                    "options": {
+                        "main": "src/main.ts",
+                        "polyfills": "src/polyfill.ts",
+                        "index": "src/index.html",
+                        "tsConfig": "tsconfig.app.json",
+                        "outputPath": "dist/angular-manual-setup"
+                    }
+                },
+                "serve": {
+                    "builder":"@angular-devkit/build-angular:dev-server",
+                    "options": {
+                        "browserTarget": "angular-manual-setup:build"
+                    }
+                }
+            }
+        }
+    }
+}
