@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^13.3.11",
+    "@angular-devkit/build-angular": "^18.2.7",
     "@angular/cli": "^13.3.11",
     "@angular/core": "^13.4.0",
     "@angular/platform-browser-dynamic": "^13.4.0",
