@@ -20,7 +20,7 @@
                 "serve": {
                     "builder":"@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "angular-manual-setup:build"
+                        "buildTarget": "angular-manual-setup:build"
                     }
                 }
             }
