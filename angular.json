@@ -11,7 +11,7 @@
                     "configurations": {},
                     "options": {
                         "main": "src/main.ts",
-                        "polyfills": "src/polyfill.ts",
+                        "polyfills": ["zone.js"],
                         "index": "src/index.html",
                         "tsConfig": "tsconfig.app.json",
                         "outputPath": "dist/angular-manual-setup"
